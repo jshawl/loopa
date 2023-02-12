@@ -1,6 +1,6 @@
 {
-  "name": "loopit",
-  "version": "1.0.0",
+  "name": "loopa",
+  "version": "1",
   "description": "Visit <about:debugging#/runtime/this-firefox>",
   "main": "index.js",
   "dependencies": {},
@@ -16,18 +16,19 @@
     "test:watch": "jest --watchAll",
     "format": "prettier --write .",
     "build": "rollup -c",
-    "start": "rollup -cw"
+    "start": "rollup -cw",
+    "build:extension": "./build_extension"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jshawl/loopit.git"
+    "url": "git+https://github.com/jshawl/loopa.git"
   },
   "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jshawl/loopit/issues"
+    "url": "https://github.com/jshawl/loopa/issues"
   },
   "homepage": "https://github.com/jshawl/loopit#readme"
 }
