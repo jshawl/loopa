@@ -14,12 +14,15 @@ const template = (duration = 0) => `
     width: 50px;
   }
 </style>
+<strong>Loopa</strong>
 <label>Start</label>
 <input class='start range' type='number' min='0' max='${duration}' value='${0}' />
 <label>Finish</label>
 <input class='finish range' type='number' min='0' max='${duration}' />
 <label>Speed</label>
 <input type='number' class='speed' min="1" max="100" value="100" />
+<br>
+<div><input type="checkbox" checked id='enabled' class='js-enable'/><label for='enabled'>Enabled</label></div>
 `
 
 export const init = (container, duration = 0) => {
@@ -38,6 +41,10 @@ export const setMax = (max) => {
       input.value = max
     }
   })
+}
+
+export const isDisabled = () => {
+  return !document.querySelector(".js-enable").checked
 }
 
 export const getVideo = () => document.querySelector("video")

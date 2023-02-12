@@ -22,7 +22,7 @@ describe("ui mounting", () => {
     expect(document.querySelector(".ui")).toBeTruthy()
   })
   it("adds inputs", () => {
-    expect(document.querySelectorAll("input").length).toBe(2)
+    expect(document.querySelectorAll("input").length).toBe(3)
   })
   it("updates inputs if the video changes", () => {
     expect(document.querySelector("input").max).toBe("0")
