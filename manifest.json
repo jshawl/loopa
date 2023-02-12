@@ -9,7 +9,7 @@
         "*://*.youtube.com/watch*"
       ],
       "js": [
-        "src/loopit.js"
+        "dist/index.js"
       ]
     }
   ]

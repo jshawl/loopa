@@ -1,0 +1,33 @@
+{
+  "name": "loopit",
+  "version": "1.0.0",
+  "description": "Visit <about:debugging#/runtime/this-firefox>",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.20.11",
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1",
+    "prettier": "^2.8.3",
+    "rollup": "^3.10.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "format": "prettier --write .",
+    "build": "rollup -c",
+    "dev": "rollup -cw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jshawl/loopit.git"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jshawl/loopit/issues"
+  },
+  "homepage": "https://github.com/jshawl/loopit#readme"
+}
