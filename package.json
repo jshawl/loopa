@@ -16,7 +16,7 @@
     "test:watch": "jest --watchAll",
     "format": "prettier --write .",
     "build": "rollup -c",
-    "dev": "rollup -cw"
+    "start": "rollup -cw"
   },
   "repository": {
     "type": "git",
