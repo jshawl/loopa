@@ -1,0 +1,24 @@
+<style>
+  body {
+    font-family: sans-serif;
+  }
+  label {
+    display: block;
+    margin-top: .5rem;
+  }
+  h1{
+    font-size:1.5rem;
+    font-weight: lighter;
+  }
+</style>
+<h1>Loopa</h1>
+<form>
+  <label>Loop Start</label>
+  <input class='start range' name='start' type='number' min='0' max='10000' value='0' />
+  <label>Loop Finish</label>
+  <input class='finish range' name='finish' type='number' min='0' max='10000' value='10000' />
+  <label>Video Speed</label>
+  <input type='number' class='speed' name='speed' min="1" max="100" value="100" />
+</form>
+
+<script src='app.js'></script>

@@ -1,4 +1,0 @@
-#!/bin/sh
-
-destination="./loopa-$npm_package_version.zip"
-zip -r -FS $destination manifest.json dist/

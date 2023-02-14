@@ -1,23 +1,21 @@
 {
   "name": "loopa",
-  "version": "1",
-  "description": "Visit <about:debugging#/runtime/this-firefox>",
+  "version": "1.0.0",
+  "description": "Loop sections of videos slowly",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.20.11",
     "jest": "^29.3.1",
     "jest-environment-jsdom": "^29.3.1",
-    "prettier": "^2.8.3",
-    "rollup": "^3.10.1"
+    "prettier": "^2.8.3"
   },
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watchAll",
     "format": "prettier --write .",
     "build": "rollup -c",
-    "start": "rollup -cw",
-    "build:extension": "./build_extension"
+    "start": "rollup -cw"
   },
   "repository": {
     "type": "git",
