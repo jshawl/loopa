@@ -2,6 +2,12 @@
 
 An extension for looping parts of YouTube videos, slowly.
 
+## Building
+
+```
+npm run build
+```
+
 ## Development
 
 ### Firefox
