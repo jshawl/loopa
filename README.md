@@ -13,3 +13,7 @@ npm run build
 ### Firefox
 
 Visit `about:debugging#/runtime/this-firefox` and click "Load Temporary Add-on..."
+
+### Chrome
+
+Visit `chrome://extensions/` and click "load unpacked extension"
