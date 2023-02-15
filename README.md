@@ -1,6 +1,8 @@
-# Loopa
+# ![](/icon.png) Loopa
 
 An extension for looping parts of YouTube videos, slowly.
+
+
 
 ## Building
 
