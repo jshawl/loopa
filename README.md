@@ -1,6 +1,8 @@
 # ![](/icon.png) Loopa
 
-An extension for looping parts of YouTube videos, slowly.
+A web browser extension for looping parts of YouTube videos, slowly.
+
+Available for Firefox here: https://addons.mozilla.org/firefox/addon/loopa/
 
 
 
